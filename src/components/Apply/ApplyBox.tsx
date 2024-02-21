@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const ApplyBox = () => {
   return (
-    <div className="flex gap-4 flex-wrap text-center justify-center max-w-[600px] ">
-      <div className="w-[240px] min-h-[118px] flex flex-col items-center  px-4 py-3 bg-[#20364B]">
+    <div className="flex gap-3 lg:gap-4 flex-wrap text-center justify-center max-w-[600px] ">
+      <div className="lg:w-[240px] w-[200px] min-h-[118px] flex flex-col items-center  px-4 py-3 bg-[#20364B]">
         <Image
           src="/Assets/pg1.png"
           alt="book"
-          className="w-[26px] h-[22px]"
+          className="w-[26px] h-[22px] "
           width={26}
           height={22}
         />
@@ -19,7 +19,7 @@ const ApplyBox = () => {
           skills
         </p>
       </div>
-      <div className="w-[240px] flex flex-col min-h-[118px]  items-center  px-4 py-3 bg-[#E5E5E5]">
+      <div className="lg:w-[240px] w-[200px] flex flex-col min-h-[118px]  items-center  px-4 py-3 bg-[#E5E5E5]">
         <Image
           src="/Assets/pg2.png"
           alt="book"
@@ -34,7 +34,7 @@ const ApplyBox = () => {
         <hr className="w-[13%] mb-1 border-[#808080] border-[1.8px]" />
         <p className="text-xs ">Focus on Depth of Knowledge</p>
       </div>
-      <div className="w-[240px] flex flex-col min-h-[118px]  items-center  px-4 py-3 bg-[#E5E5E5]">
+      <div className="lg:w-[240px] w-[200px] flex flex-col min-h-[118px]  items-center  px-4 py-3 bg-[#E5E5E5]">
         <Image
           src="/Assets/pg3.png"
           alt="book"
@@ -51,7 +51,7 @@ const ApplyBox = () => {
           World)
         </p>
       </div>
-      <div className="w-[240px] flex flex-col min-h-[118px]  items-center  px-4 py-3 bg-[#E5E5E5]">
+      <div className="lg:w-[240px] w-[200px] flex flex-col min-h-[118px]  items-center  px-4 py-3 bg-[#E5E5E5]">
         <Image
           src="/Assets/pg4.png"
           alt="book"

@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.parent:hover h1{
+    color: #4BB559;
+}
+.swiper-pagination-bullet-active{
+    background: green;
+}

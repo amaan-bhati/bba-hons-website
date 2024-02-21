@@ -10,35 +10,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Slider = () => {
   return (
-    <div className="w-screen bg-[#20364B] flex items-center my-16 justify-center p-20">
+    <div className="w-full bg-[#20364B] flex items-center my-16 justify-center md:p-20 py-10 px-4 ">
+    
       <Swiper
-        spaceBetween={10}
+        spaceBetween={30}
         slidesPerView={1}
         // cssMode={true}
         // mousewheel={true}
         autoplay={{
             delay: 3000,
-            disableOnInteraction: true,
+            disableOnInteraction: false,
+            pauseOnMouseEnter:true
           }}
         pagination={true}
-        // navigation={true}
 
-        // className="pl-40 "
         modules={[Autoplay, Pagination]}
         loop={false}
       >
         <SwiperSlide>
-          {/* <h1>Hi</h1> */}
+
           <SliderCard/>
         </SwiperSlide>
 
         <SwiperSlide>
-          {/* <h1>Hi</h1> */}
+
           <SliderCard/>
 
         </SwiperSlide>
         <SwiperSlide>
-          {/* <h1>Hi</h1> */}
+
           <SliderCard/>
 
         </SwiperSlide>

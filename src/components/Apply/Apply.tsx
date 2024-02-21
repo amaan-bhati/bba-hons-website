@@ -8,7 +8,7 @@ const Apply = () => {
       <h1 className="font-bold text-[26px] ">Why Apply?</h1>
       <hr className="w-12  border-black mb-2 border-[1.8px]" />
 
-      <div className="flex text-left max-w-[1500px] items-center justify-between ">
+      <div className="flex flex-col lg:flex-row gap-6  text-left max-w-[1500px] items-center justify-between ">
         <div className="font-bold text-sm ">
           <div className="flex gap-4 p-1 items-center">
             <Image
